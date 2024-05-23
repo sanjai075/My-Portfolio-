@@ -5,7 +5,7 @@ import { styles } from '../styles'
 import {fadeIn,textVariant} from "../utils/motion"
 const About = () => {
   return (
-   <div id='about' className='flex flex-col justify-center items-center mt-16 '>
+   <div id='about' className='flex flex-col justify-center items-center mt-16 scroll-my-20'>
    <motion.div variants={textVariant(0.5)}
    initial="hidden" whileInView="show"  viewport={{ once: true, amount: 0.5 }}
    className='flex flex-col justify-center items-center'

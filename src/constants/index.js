@@ -23,12 +23,17 @@ import {
     jobit,
     tripguide,
     threejs,
+    vs,
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
       title: "About",
+    },
+    {
+      id:"myexperiences",
+      title:"My Experience",
     },
     {
       id: "work",
@@ -108,6 +113,10 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name:"VS Code",
+      icon: vs,
     },
     
   ];

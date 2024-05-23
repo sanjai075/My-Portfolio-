@@ -20,6 +20,7 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link,live})=
       scale: 1,
       speed: 450,
     }}
+  
     className='bg-tertiary p-5 rounded-2xl min-h-[550px] max-h-[550px] sm:w-[330px] w-full'
     >
    <div className='relative w-full h-[230px]'>
@@ -61,7 +62,7 @@ const Works = () => {
 
   return (
     <>
-     <div className=' flex flex-col justify-center items-center'>
+     <div id='work' className=' flex flex-col justify-center items-center scroll-my-20'>
      <motion.div variants={textVariant(0.5)}
     initial="hidden" whileInView="show"  viewport={{ once: true, amount: 0.5 }}
     className='flex flex-col justify-center items-center'

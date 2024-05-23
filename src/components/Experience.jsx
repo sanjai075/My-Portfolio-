@@ -5,7 +5,7 @@ import cg from "../../public/assets/cg.png"
 
 const Experience = () => {
   return (
-    <div id='about' className='flex flex-col justify-center items-center mt-16'>
+    <div id='myexperiences' className='flex flex-col justify-center items-center mt-28 scroll-my-28'>
     <motion.div variants={textVariant(0.5)}
     initial="hidden" whileInView="show"  viewport={{ once: true, amount: 0.5 }}
     className='flex flex-col justify-center items-center'
@@ -18,7 +18,7 @@ const Experience = () => {
     
      <motion.div variants={fadeIn("right","spring",0.5,1)}
       initial="hidden" whileInView="show"  viewport={{ once: true, amount: 0.5 }}
-     className='green-pink-gradient max-w-4xl m-6 rounded-[20px] shadow-card p-[0.8px] '
+     className='green-pink-gradient max-w-4xl m-6 rounded-[20px] shadow-card p-[0.8px] mt-16 '
      >
      <div className="bg-tertiary flex flex-col gap-2 md:gap-0 md:flex-row md:justify-around rounded-[20px] p-5  w-full">
      <div className=" max-w-40 order-1 md:order-1  ">

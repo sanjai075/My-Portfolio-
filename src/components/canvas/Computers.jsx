@@ -12,7 +12,7 @@ const Computers = ({isMobile}) => {
   useFrame((state, delta) => {
     // Rotate the object around the Y-axis
     if (computerRef.current) {
-      computerRef.current.rotation.y += 0.001;
+      computerRef.current.rotation.y += 0.0001;
     }
   });
 
