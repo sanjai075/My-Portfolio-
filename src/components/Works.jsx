@@ -20,7 +20,7 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link,live})=
       scale: 1,
       speed: 450,
     }}
-    className='bg-tertiary p-5 rounded-2xl min-h-[580px] max-h-[580px] sm:w-[330px] w-full'
+    className='bg-tertiary p-5 rounded-2xl min-h-[550px] max-h-[550px] sm:w-[330px] w-full'
     >
    <div className='relative w-full h-[230px]'>
   <img src={image} alt={name} 
@@ -39,7 +39,7 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link,live})=
 
   </div>
    </div>
-   <div className='mt-5  min-h-[300px] flex flex-col justify-around'>
+   <div className='mt-5  min-h-[250px] flex flex-col justify-around'>
    <a href={live} target='_blank' className='text-white font-bold text-[24px]'>{name}</a>
    <p className='mt-2 text-secondary text-[14px]'>{description}</p>
    <div className='mt-4 flex flex-wrap gap-2'>

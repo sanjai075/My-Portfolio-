@@ -198,7 +198,7 @@ import {
     {
       name: "Imagen",
       description:
-        " ImaGen is a  website harnessing the power of artificial intelligence to generate stunning images from your descriptions. Simply input your ideas, and watch as our advanced algorithms bring them to life with impressive detail and creativity. unleash your imagination and explore endless possibilities with ImaGen",
+        " ImaGen is a website harnessing the power of artificial intelligence to generate stunning images from your descriptions. Simply input your ideas, and watch as our advanced algorithms bring them to life with impressive detail.",
       tags: [
         {
           name: "react",
@@ -217,7 +217,7 @@ import {
     {
       name: "Go Cart",
       description:
-        "Discover a world of convenience and choice with our eCommerce site. From fashion to electronics, home essentials to gifts, find everything you need in one place. Fast shipping, and top-notch customer service. Elevate your shopping experience and explore endless options at your fingertips.",
+        "Discover a world of convenience and choice with our eCommerce site. From fashion to electronics, home essentials to gifts, find everything you need in one place. Fast shipping, and top-notch customer service.",
       tags: [
         {
           name: "react",
@@ -239,7 +239,7 @@ import {
     {
       name: "Chat Gem",
       description:
-        "Explore the next frontier of online communication with our ChatGem. Powered by advanced AI technology, our platform offers users a seamless and engaging chat experience. From casual conversation to personalized assistance, ChatGem provides a versatile space for meaningful interactions and innovative exploration.",
+        "Explore the next frontier of online communication with our ChatGem. Powered by advanced AI technology, ChatGem provides a versatile space for meaningful interactions and innovative exploration.",
       tags: [
         {
           name: "react",

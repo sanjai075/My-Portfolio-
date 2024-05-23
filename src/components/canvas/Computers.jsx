@@ -1,4 +1,4 @@
-import  { Suspense, useEffect, useState } from "react";
+import  { Suspense, useEffect, useState,useRef } from "react";
 import { Canvas,useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, SpotLight, useGLTF } from "@react-three/drei";
 
@@ -7,17 +7,18 @@ import CanvasLoader from "../Loader";
 const Computers = ({isMobile}) => {
 
   const computer = useGLTF('./desktop_pc/scene.gltf')
+  const computerRef = useRef();
 
   useFrame((state, delta) => {
-    // Reset the position to avoid cumulative translation
-   
-
     // Rotate the object around the Y-axis
-    computer.scene.rotation.y += 0.01 * delta;
+    if (computerRef.current) {
+      computerRef.current.rotation.y += 0.001;
+    }
   });
 
+
   return (
-   <mesh>
+   <mesh ref={computerRef}>
     <hemisphereLight intensity={1}
     
     groundColor="black"/>
