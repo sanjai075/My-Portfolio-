@@ -35,13 +35,14 @@ import {
       id:"myexperiences",
       title:"My Experience",
     },
-    {
-      id: "work",
-      title: "Work",
-    },
+    
     {
       id:"Skills",
       title:"Skills"
+    },
+    {
+      id: "work",
+      title: "Work",
     },
     {
       id: "contact",
@@ -97,11 +98,7 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    
+  
     {
       name: "Three JS",
       icon: threejs,

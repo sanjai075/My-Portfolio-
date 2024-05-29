@@ -22,9 +22,9 @@ const About = () => {
     >
       <div
     
-      className='bg-tertiary rounded-[20px] flex flex-col gap-4  p-6 '
+      className='bg-black-200 rounded-[20px] flex flex-col gap-4  p-5 '
       >
-        <p> I'm Sanjai. A web developer with a deep specialization in React, and Node.js. 
+        <p> I'm Sanjai. A web developer with a deep specialization in React. 
           With a strong foundation in modern web development practices, I bring a wealth of experience to
            every project, consistently delivering high-quality, scalable, and user-friendly web applications.</p>
            <p>
@@ -38,7 +38,7 @@ I honed my skills in building responsive and user-centric web applications using
            <ul className='list-disc grid grid-cols-2 ml-5 gap-4 gap-x-8 '>
             <li className=''>B.Sc in Electronics and Communication Systems</li>
             <li className=''>Web Developer</li>
-            <li>Specialized in React and Node.js </li>
+            <li>Specialized in React </li>
             <li>Continuous learning</li>
            </ul>
   </di>

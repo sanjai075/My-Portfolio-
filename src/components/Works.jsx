@@ -21,9 +21,11 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link,live})=
       speed: 450,
     }}
   
-    className='bg-tertiary p-5 rounded-2xl min-h-[550px] max-h-[550px] sm:w-[330px] w-full'
+    className='bg-black-200 p-5 rounded-2xl min-h-[550px] max-h-[550px] sm:w-[330px] w-full'
     >
-   <div className='relative w-full h-[230px]'>
+   <div 
+   onClick={()=>window.open(live,"_blank")}
+   className='relative w-full h-[230px] cursor-pointer '>
   <img src={image} alt={name} 
   className='w-full h-full object-cover rounded-2xl '
   />
@@ -79,7 +81,7 @@ const Works = () => {
     className="w-full flex  justify-center green-pink-gradient p-[0.8px] rounded-2xl mt-9 max-w-4xl">
       <p
      
-      className="p-5 text-secondary bg-tertiary text-[17px] w-full leading-[30px] rounded-2xl" 
+      className="p-5 text-secondary bg-black-200 text-[17px] w-full leading-[30px] rounded-2xl" 
       >
          Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
